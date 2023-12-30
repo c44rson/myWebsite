@@ -1,25 +1,61 @@
+body {
+  background-color: rgb(183, 181, 181);
+}
+
+h1 {
+  font-size: 50px;
+}
+
 .header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: minmax(50px, auto);
+  grid-template-areas:
+    "t t t t t t"
+    "e e e e e e";
+  gap: 20px;
+}
+.title {
+  grid-area: t;
+  background-color: crimson;
+  text-align: center;
+  border: 3px double black;
+}
+.emailForm {
+  grid-area: e;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
+  align-content: center;
+  border: 2px dotted black;
+  border-radius: 10px;
 }
 .body {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: minmax(100px, auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(1fr, auto);
   grid-template-areas:
-    "ia ia ia ia"
-    "pr pr am am";
+    "ia ia"
+    "pr am";
+  gap: 10px;
 }
 .interactive {
   grid-area: ia;
   text-align: center;
+  border: 2px dotted black;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 .projects {
   grid-area: pr;
   text-align: center;
+  border: 2px dotted black;
+  border-radius: 15px;
 }
 .aboutme {
   grid-area: am;
   text-align: center;
+  border: 2px dotted black;
+  border-radius: 15px;
 }
