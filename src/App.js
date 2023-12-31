@@ -1,12 +1,12 @@
 import "./App.css";
-import lion from "./images/loyola.png";
-import me from "./images/me.jpeg";
+import lmu from "./images/lmu.png";
+import me from "./images/c4rson.png";
 
 function App() {
   return (
     <div className="global">
       <div className="header">
-        <img className="lion" src={lion} alt="Raging Lion" />
+        <img className="lmu" src={lmu} alt="LMU" />
         <h1>Carson Cabrera</h1>
       </div>
       <div className="projects">
@@ -21,11 +21,14 @@ function App() {
         <p>
           I am a 19 year old B.S. Computer Science student at Loyola Marymount
           University. I specialize in Full Stack Web Development and writing
-          programs in Python. Besides my programming endeavors I am on the
+          programs in Python. Besides my programming endeavors, I am on the
           Loyola Rugby team, enjoy amateur Powerlifting, and casually run. In
           the near future, I want to work a job at a tech company as a software
           engineer. Long term, I want to take over the world.
         </p>
+      </div>
+      <div className="connect">
+        <p>Links here</p>
       </div>
       <div className="emailForm">
         <h4>Email Me:</h4>
