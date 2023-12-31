@@ -1,61 +1,71 @@
+html,
 body {
-  background-color: rgb(183, 181, 181);
+  margin: 0;
+  padding: 0;
+  background-color: rgb(159, 153, 153);
 }
 
-h1 {
-  font-size: 50px;
+.global {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(1fr, auto);
+  grid-template-areas:
+    "t t t t"
+    "am am pr pr"
+    "e . pr pr";
+  gap: 10px;
+  overflow: scroll;
 }
 
 .header {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: minmax(50px, auto);
-  grid-template-areas:
-    "t t t t t t"
-    "e e e e e e";
-  gap: 20px;
-}
-.title {
   grid-area: t;
-  background-color: crimson;
-  text-align: center;
-  border: 3px double black;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(140, 9, 35);
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-bottom: solid 2px black;
 }
+
+h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.lion {
+  height: 75px;
+  width: 75px;
+}
+
+.projects {
+  grid-area: pr;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.aboutme {
+  grid-area: am;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 2px dashed white;
+  border-radius: 15px;
+}
+
 .emailForm {
   grid-area: e;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   align-content: center;
-  border: 2px dotted black;
+  border: 2px dashed white;
   border-radius: 10px;
+  padding: 10px;
 }
-.body {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(1fr, auto);
-  grid-template-areas:
-    "ia ia"
-    "pr am";
-  gap: 10px;
-}
-.interactive {
-  grid-area: ia;
-  text-align: center;
-  border: 2px dotted black;
-  margin-top: 10px;
-  border-radius: 10px;
-}
-.projects {
-  grid-area: pr;
-  text-align: center;
-  border: 2px dotted black;
-  border-radius: 15px;
-}
-.aboutme {
-  grid-area: am;
-  text-align: center;
-  border: 2px dotted black;
-  border-radius: 15px;
+
+.formInput {
+  padding: 2px;
 }
