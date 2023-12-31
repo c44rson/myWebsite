@@ -14,21 +14,48 @@ function App() {
         <a href="https://github.com/c44rson" target="_blank" rel="noreferrer">
           Github Repo
         </a>
-        <p>TODO ADD PROJECT PREVIEWS</p>
+        <p>
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+          PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS PROJECT DEMOS
+        </p>
       </div>
       <div className="aboutme">
         <img className="me" src={me} alt="Carson" />
         <p>
-          I am a 19 year old B.S. Computer Science student at Loyola Marymount
-          University. I specialize in Full Stack Web Development and writing
-          programs in Python. Besides my programming endeavors, I am on the
-          Loyola Rugby team, enjoy amateur Powerlifting, and casually run. In
-          the near future, I want to work a job at a tech company as a software
-          engineer. Long term, I want to take over the world.
+          Carson Cabrera is a 19-year-old B.S. Computer Science major, Business
+          Administration minor student at Loyola Marymount University. He is
+          from the San Fernando Valley in Los Angeles, CA. His specialties are
+          Full-Stack Web Development and writing fun programs in Python. Besides
+          his programming endeavors, he is on the LMU Rugby team, enjoys amateur
+          Powerlifting, is a semi-pro Counter-Strike player, and a casual
+          runner. In the near future, he wants to get hired by any tech company,
+          in any field. Long term... world domination?
         </p>
       </div>
       <div className="connect">
-        <p>Links here</p>
+        <h4>Links</h4>
+        <p>LINKS LINKS LINKS LINKS LINKS</p>
+        <p>LINKS LINKS LINKS LINKS LINKS</p>
+        <p>LINKS LINKS LINKS LINKS LINKS</p>
+        <p>LINKS LINKS LINKS LINKS LINKS</p>
       </div>
       <div className="emailForm">
         <h4>Email Me:</h4>
