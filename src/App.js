@@ -1,12 +1,13 @@
 import "./App.css";
 import lion from "./images/loyola.png";
+import me from "./images/me.jpeg";
 
 function App() {
   return (
     <div className="global">
       <div className="header">
         <img className="lion" src={lion} alt="Raging Lion" />
-        <h1>Carson Cabrera's Super Duper Portfolio Page</h1>
+        <h1>Carson Cabrera</h1>
       </div>
       <div className="projects">
         <h2>My Projects</h2>
@@ -16,7 +17,7 @@ function App() {
         <p>TODO ADD PROJECT PREVIEWS</p>
       </div>
       <div className="aboutme">
-        <h2>About Me</h2>
+        <img className="me" src={me} alt="Carson" />
         <p>
           I am a 19 year old B.S. Computer Science student at Loyola Marymount
           University. I specialize in Full Stack Web Development and writing
@@ -27,7 +28,7 @@ function App() {
         </p>
       </div>
       <div className="emailForm">
-        <h3>Email Me:</h3>
+        <h4>Email Me:</h4>
         <form
           action="https://formsubmit.co/0d8407458399b4d6df4b7ce1585e6905"
           method="POST"
