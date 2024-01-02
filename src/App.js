@@ -12,7 +12,13 @@ function App() {
   return (
     <div className="god">
       <div className="header">
-        <img className="headerPhoto" src={lmu} alt="LMU" />
+        <a
+          href="https://cse.lmu.edu/department/computerscience/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="headerPhoto" src={lmu} alt="LMU" />
+        </a>
         <h1
           onClick={() => {
             setHome(true);
@@ -21,28 +27,26 @@ function App() {
         >
           Carson Cabrera
         </h1>
-        <a
-          href="https://leetcode.com/c4444rson/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="headerPhoto"
-            src={leet}
-            alt="leetcode logo clickable"
-          />
-        </a>
-        <a href="https://github.com/c44rson" target="_blank" rel="noreferrer">
-          <img className="headerPhoto" src={git} alt="github logo clickable" />
-        </a>
-        <button
-          onClick={() => {
-            setHome(false);
-            setContact(true);
-          }}
-        >
-          Contact Me
-        </button>
+        <div className="contactClickable">
+          <a
+            href="https://leetcode.com/c4444rson/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={leet} alt="leetcode logo clickable" />
+          </a>
+          <a href="https://github.com/c44rson" target="_blank" rel="noreferrer">
+            <img src={git} alt="github logo clickable" />
+          </a>
+          <button
+            onClick={() => {
+              setHome(false);
+              setContact(true);
+            }}
+          >
+            Contact Me
+          </button>
+        </div>
       </div>
       {!home && contact ? (
         <Contact />

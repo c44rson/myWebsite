@@ -34,24 +34,46 @@ h1:hover {
   color: black;
 }
 
-.headerPhoto {
+.contactClickable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.header img {
   height: 60px;
   width: 60px;
+  transition-duration: 0.4s;
+}
+
+.header img:hover {
+  scale: 1.1;
+}
+
+.headerPhoto {
   margin-left: 10px;
 }
 
 .header button {
+  margin-left: 10px;
+}
+
+button {
   font-family: monospace;
-  margin-left: auto;
-  margin-right: 10px;
   height: 40px;
   width: 100px;
   border-radius: 1px;
   transition-duration: 0.4s;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
 
-.header button:hover {
-  color: white;
+button:hover {
+  color: #93171a;
 }
 
 .content {
@@ -120,4 +142,9 @@ h1:hover {
 
 .formInput {
   padding: 2px;
+}
+
+.contactPage textarea {
+  height: 200px;
+  width: 400px;
 }
