@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #93171a;
-  background-image: linear-gradient(180deg, darkred, #93171a);
+  background-image: linear-gradient(180deg, darkred, #890c0e);
   justify-content: left;
   align-content: center;
   align-items: center;
@@ -27,7 +27,7 @@ h1 {
   margin-left: 15px;
   text-shadow: 1px 1px 3px black;
   color: white;
-  transition-duration: 0.4s;
+  transition-duration: 0.8s;
 }
 
 h1:hover {
