@@ -46,11 +46,12 @@ h1:hover {
 .header img {
   height: 60px;
   width: 60px;
-  transition-duration: 0.4s;
+  transition-duration: 1s;
 }
 
 .header img:hover {
   scale: 1.1;
+  rotate: 360deg;
 }
 
 .headerPhoto {
@@ -178,6 +179,7 @@ button:hover {
     height: 60vh;
   }
 }
+
 @media all and (max-width: 675px) {
   .contactClickable {
     flex-direction: column;
@@ -189,5 +191,9 @@ button:hover {
   .contactPage textarea {
     height: 100px;
     width: 200px;
+  }
+  .aboutme {
+    width: 75vw;
+    height: 60vh;
   }
 }
