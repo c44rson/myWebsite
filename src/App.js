@@ -59,18 +59,21 @@ function App() {
                 width="750"
                 height="450"
                 title="project1"
-                src="https://www.youtube.com/embed/bfxA1dDNPgE"
+                src="https://www.youtube.com/embed/ZRO7FIARsNw"
               ></iframe>
-              <h3>Title</h3>
-              <p>Description</p>
+              <h3>Distle</h3>
+              <p>
+                Dynamic Programming and Artificial Intelligence implementation
+                of a fun guessing game!
+              </p>
               <iframe
                 width="750"
                 height="450"
                 title="project2"
-                src="https://www.youtube.com/embed/LJEOy9VQjkk"
+                src="https://www.youtube.com/embed/hbB2MIKeXPc"
               ></iframe>
-              <h3>Title</h3>
-              <p>Description</p>
+              <h3>Blog Demo</h3>
+              <p>Blog web app created using React, Firebase, and Firestore!</p>
             </div>
           </div>
           <div className="aboutme">
