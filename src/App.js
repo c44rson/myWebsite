@@ -52,6 +52,19 @@ function App() {
         <Contact />
       ) : (
         <div className="content">
+          <div className="aboutme">
+            <img className="me" src={me} alt="Carson" />
+            <p>
+              Carson Cabrera is a 19-year-old B.S. Computer Science major,
+              Business Administration minor 2nd-year at Loyola Marymount
+              University. Born and raised in the San Fernando Valley, his
+              specialties are Full-Stack Web Development and writing fun
+              programs in Python. Besides his programming endeavors, he starts
+              on the LMU Rugby team, enjoys Powerlifting and runs long
+              distances. In the near future, he wants to get hired by any tech
+              company, in any field. Long term? World Domination.
+            </p>
+          </div>
           <div className="projects">
             <h2>Project Preview</h2>
             <div className="videos">
@@ -75,19 +88,6 @@ function App() {
               <h3>Blog Demo</h3>
               <p>Blog web app created using React, Firebase, and Firestore!</p>
             </div>
-          </div>
-          <div className="aboutme">
-            <img className="me" src={me} alt="Carson" />
-            <p>
-              Carson Cabrera is a 19-year-old B.S. Computer Science major,
-              Business Administration minor 2nd-year at Loyola Marymount
-              University. Born and raised in the San Fernando Valley, his
-              specialties are Full-Stack Web Development and writing fun
-              programs in Python. Besides his programming endeavors, he starts
-              on the LMU Rugby team, enjoys Powerlifting and runs long
-              distances. In the near future, he wants to get hired by any tech
-              company, in any field. Long term? World Domination.
-            </p>
           </div>
         </div>
       )}
