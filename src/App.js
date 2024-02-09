@@ -60,13 +60,13 @@ function App() {
               University. Born and raised in the San Fernando Valley, his
               specialties are Full-Stack Web Development and writing fun
               programs in Python. Besides his programming endeavors, he starts
-              on the LMU Rugby team, enjoys Powerlifting and runs long
+              on the LMU Rugby team, enjoys Powerlifting and running long
               distances. In the near future, he wants to get hired by any tech
               company, in any field. Long term? World Domination.
             </p>
           </div>
           <div className="projects">
-            <h2>Project Preview</h2>
+            <h2>Distle</h2>
             <div className="videos">
               <iframe
                 width="750"
@@ -74,18 +74,17 @@ function App() {
                 title="project1"
                 src="https://www.youtube.com/embed/ZRO7FIARsNw"
               ></iframe>
-              <h3>Distle</h3>
               <p>
                 Dynamic Programming and Artificial Intelligence implementation
                 of a fun guessing game!
               </p>
+              <h2>Blog Demo</h2>
               <iframe
                 width="750"
                 height="450"
                 title="project2"
                 src="https://www.youtube.com/embed/hbB2MIKeXPc"
               ></iframe>
-              <h3>Blog Demo</h3>
               <p>Blog web app created using React, Firebase, and Firestore!</p>
             </div>
           </div>

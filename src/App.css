@@ -2,15 +2,14 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #c4c4c4;
-  font-family: monospace;
+  background-color: white;
+  font-family: "Young Serif", serif;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  background-color: #93171a;
-  background-image: linear-gradient(180deg, darkred, #890c0e);
+  background-color: white;
   justify-content: left;
   align-content: center;
   align-items: center;
@@ -25,12 +24,22 @@ h1 {
   font-size: 35px;
   margin-left: 15px;
   text-shadow: 1px 1px 3px black;
-  color: white;
-  transition-duration: 0.8s;
+  color: black;
+  animation: h1-animation 1.5s infinite;
+  font-family: "Young Serif", serif;
 }
 
-h1:hover {
-  color: black;
+@keyframes h1-animation {
+  0% {
+    color: black;
+  }
+  50% {
+    scale: 1.01;
+    color: #93171a;
+  }
+  100% {
+    color: black;
+  }
 }
 
 .contactClickable {
@@ -45,12 +54,11 @@ h1:hover {
 .header img {
   height: 60px;
   width: 60px;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .header img:hover {
   scale: 1.1;
-  rotate: 360deg;
 }
 
 .headerPhoto {
@@ -93,9 +101,9 @@ button:hover {
 .projects {
   grid-area: pr;
   text-align: center;
-  background-image: linear-gradient(295deg, rgb(157, 157, 157), #c4c4c4);
+  background-color: white;
   margin-right: 10px;
-  border-radius: 5px;
+  margin-left: 0px;
 }
 
 .videos {
@@ -114,8 +122,7 @@ button:hover {
   text-align: center;
   margin-left: 10px;
   padding: 10px;
-  border-radius: 2px;
-  background-image: linear-gradient(90deg, rgb(157, 157, 157), #c4c4c4);
+  background-color: white;
 }
 
 .me {
@@ -124,6 +131,12 @@ button:hover {
   height: 200px;
   width: 150px;
   border: 2px solid black;
+  animation: bounce;
+}
+
+p {
+  font-family: "Playfair", serif;
+  font-size: 17px;
 }
 
 .contactPage {
@@ -194,5 +207,6 @@ button:hover {
   .aboutme {
     width: 75vw;
     height: 60vh;
+    margin-bottom: 50px;
   }
 }
