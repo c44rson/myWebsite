@@ -84,6 +84,36 @@ button:hover {
   color: #93171a;
 }
 
+#spider {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  animation: motion-animation 20s infinite;
+}
+
+@keyframes motion-animation {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  25% {
+    top: 90%;
+    left: 0%;
+  }
+  50% {
+    top: 90%;
+    left: 90%;
+  }
+  75% {
+    top: 10%;
+    left: 90%;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+  }
+}
+
 .content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -260,5 +290,8 @@ p {
 @media all and (max-width: 560px) {
   .aboutme {
     margin-bottom: 50px;
+  }
+  .me {
+    width: 35vw;
   }
 }

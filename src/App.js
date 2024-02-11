@@ -3,6 +3,7 @@ import lmu from "./images/lmu.png";
 import me from "./images/c4rson.png";
 import leet from "./images/leetcode.png";
 import git from "./images/github.png";
+import spider from "./images/spider.gif";
 import { useState } from "react";
 import Contact from "./Contact";
 
@@ -11,6 +12,7 @@ function App() {
   const [contact, setContact] = useState(false);
   return (
     <div className="god">
+      <img id="spider" src={spider} alt="spider" />
       <div className="header">
         <a
           href="https://cse.lmu.edu/department/computerscience/"
