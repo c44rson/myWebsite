@@ -3,7 +3,6 @@ import "./App.css";
 function Contact() {
   return (
     <div className="contactPage">
-      <h2>Contact Information</h2>
       <h3>Email Me:</h3>
       <form
         action="https://formsubmit.co/0d8407458399b4d6df4b7ce1585e6905"

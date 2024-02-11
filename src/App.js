@@ -78,6 +78,8 @@ function App() {
                 Dynamic Programming and Artificial Intelligence implementation
                 of a fun guessing game!
               </p>
+            </div>
+            <div className="videos">
               <h2>Blog Demo</h2>
               <iframe
                 width="750"

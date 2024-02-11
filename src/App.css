@@ -106,12 +106,32 @@ button:hover {
   margin-left: 0px;
 }
 
+h2 {
+  color: gray;
+}
+
 .videos {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   padding: 10px;
+}
+
+.videos:before {
+  border-bottom: 2px dashed black;
+  content: "";
+  display: block;
+  margin-left: -90%;
+  width: 5%;
+}
+
+.videos:after {
+  border-bottom: 2px dashed black;
+  content: "";
+  display: block;
+  margin-left: 90%;
+  width: 5%;
 }
 
 .aboutme {
@@ -121,7 +141,7 @@ button:hover {
   align-items: center;
   text-align: center;
   margin-left: 10px;
-  padding: 10px;
+  padding: 30px;
   background-color: white;
 }
 
@@ -131,7 +151,28 @@ button:hover {
   height: 200px;
   width: 150px;
   border: 2px solid black;
-  animation: bounce;
+}
+
+.aboutme {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutme:before {
+  border-bottom: 2px dashed black;
+  content: "";
+  display: block;
+  margin-left: 0%;
+  width: 10%;
+}
+
+.aboutme:after {
+  border-bottom: 2px dashed black;
+  content: "";
+  display: block;
+  margin-left: 90%;
+  width: 10%;
 }
 
 p {
@@ -149,11 +190,14 @@ p {
   margin: 10px;
   border-radius: 2px;
   margin-top: 250px;
-  font-family: monospace;
 }
 
 .formInput {
   padding: 2px;
+}
+
+.contactPage h3 {
+  color: gray;
 }
 
 .contactPage textarea {
@@ -207,6 +251,14 @@ p {
   .aboutme {
     width: 75vw;
     height: 60vh;
+  }
+  .me {
+    width: 30vw;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .aboutme {
     margin-bottom: 50px;
   }
 }
